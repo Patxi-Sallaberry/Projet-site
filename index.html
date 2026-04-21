@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projet Site</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">
+        <span class="logo-icon">&#9670;</span>
+        <span class="logo-text">ProjetSite</span>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#contact" class="btn-nav">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="accueil" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Bienvenue sur<br /><span class="highlight">ProjetSite</span></h1>
+          <p class="hero-subtitle">Un espace moderne, élégant et pensé pour vous.</p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-primary">Découvrir</a>
+            <a href="#apropos" class="btn btn-secondary">En savoir plus</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+          <div class="shape shape-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <h2 class="section-title">Nos Services</h2>
+        <p class="section-subtitle">Des solutions adaptées à chaque besoin.</p>
+        <div class="cards">
+          <div class="card">
+            <div class="card-icon">&#128736;</div>
+            <h3>Développement</h3>
+            <p>Des applications web rapides, accessibles et maintenables.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#127775;</div>
+            <h3>Design</h3>
+            <p>Des interfaces soignées qui mettent en valeur votre contenu.</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">&#128200;</div>
+            <h3>Stratégie</h3>
+            <p>Un accompagnement de A à Z pour atteindre vos objectifs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="apropos" class="about">
+      <div class="container about-inner">
+        <div class="about-text">
+          <h2>À propos</h2>
+          <p>Nous sommes une équipe passionnée par le web et par la création d'expériences numériques de qualité. Notre mission : transformer vos idées en produits concrets.</p>
+          <ul class="about-list">
+            <li>&#10003; Design centré sur l'utilisateur</li>
+            <li>&#10003; Code propre et performant</li>
+            <li>&#10003; Livraisons rapides et fiables</li>
+          </ul>
+        </div>
+        <div class="about-visual">
+          <div class="about-badge">
+            <span class="badge-number">5+</span>
+            <span class="badge-label">années d'expérience</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Contactez-nous</h2>
+        <p class="section-subtitle">Nous répondons sous 24 h.</p>
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" placeholder="Votre nom" required />
+            <input type="email" placeholder="Votre e-mail" required />
+          </div>
+          <textarea placeholder="Votre message" rows="5" required></textarea>
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-logo">ProjetSite</p>
+      <p class="footer-copy">&copy; 2026 ProjetSite. Tous droits réservés.</p>
+      <div class="footer-links">
+        <a href="#">Mentions légales</a>
+        <a href="#">Politique de confidentialité</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
